@@ -1,5 +1,4 @@
 import { z } from "zod";
-import { Job } from "@prisma/client";
 
 export const jobFilterSchema = z.object({
   q: z.string().optional(),
