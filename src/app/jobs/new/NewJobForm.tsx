@@ -1,7 +1,7 @@
 "use client";
 
-import LocationInput from "@/components/LocationInput";
 import LoadingButton from "@/components/LoadingButton";
+import LocationInput from "@/components/LocationInput";
 import RichTextEditor from "@/components/RichTextEditor";
 import {
   Form,
@@ -269,7 +269,7 @@ export default function NewJobForm() {
                 </FormItem>
               )}
             />
-            <LoadingButton type="submit" loading={isSubmitting}>
+            <LoadingButton type="submit" loading={isSubmitting} onClick={() => {}}>
               Submit
             </LoadingButton>
           </form>
